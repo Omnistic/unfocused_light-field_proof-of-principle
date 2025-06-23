@@ -1,0 +1,16 @@
+[workspace]
+channels = ["conda-forge"]
+name = "unfocused_light-field_proof-of-principle"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+notebook = ">=7.4.3,<8"
+ipykernel = ">=6.29.5,<7"
+plotly = ">=6.1.2,<7"
+numpy = ">=2.3.0,<3"
+pillow = ">=11.2.1,<12"
+scikit-image = ">=0.25.2,<0.26"
